@@ -1,0 +1,26 @@
+{
+    "name": "docusaurus-plugin-script-tags",
+    "version": "2.0.0-beta.6",
+    "description": "Docusaurus Plugin for injecting script tags",
+    "author": "Ceddy Muhoza<sup@ceddy.org>",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/algomnt/docusaurus-plugin-script-tags.git"
+    },
+    "license": "MIT",
+    "private": false,
+    "main": "lib/index.js",
+    "types": "src/plugin-script-tags.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "devDependencies": {
+        "@docusaurus/types": "^2.0.0-beta.6",
+        "@tsconfig/docusaurus": "^1.0.4",
+        "@types/node": "^16.10.1"
+    }
+}

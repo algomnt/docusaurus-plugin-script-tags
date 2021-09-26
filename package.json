@@ -13,7 +13,7 @@
     "license": "MIT",
     "private": false,
     "main": "lib/index.js",
-    "types": "src/plugin-script-tags.d.ts",
+    "types": "lib/types.d.ts",
     "scripts": {
         "build": "tsc",
         "watch": "tsc --watch"

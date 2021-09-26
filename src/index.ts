@@ -6,7 +6,7 @@
  */
 
 import type { LoadContext, Plugin } from "@docusaurus/types";
-import type { ThemeConfig } from "../plugin-script-tags";
+import type { ThemeConfig } from "./types";
 
 export default function pluginGoogleGtag(context: LoadContext): Plugin {
   const {

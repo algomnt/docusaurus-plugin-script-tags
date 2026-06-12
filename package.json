@@ -10,6 +10,10 @@
         "type": "git",
         "url": "https://github.com/algomnt/docusaurus-plugin-script-tags.git"
     },
+    "homepage": "https://github.com/algomnt/docusaurus-plugin-script-tags#readme",
+    "bugs": {
+        "url": "https://github.com/algomnt/docusaurus-plugin-script-tags/issues"
+    },
     "license": "MIT",
     "private": false,
     "main": "lib/index.js",
